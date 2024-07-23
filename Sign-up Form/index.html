@@ -33,23 +33,30 @@
 
             <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
             <form role="form" method="post" id="form">
+                <!-- All inputs in their own divs for spacing -->
                 <div class="form">
                     <label for="first-name">First Name</label>
-                    <input type="text" class="form-control" id="first-name" placeholder="First Name">
+                    <input type="text" class="form-control" id="first-name">
+                </div>
+                <div class="form">
                     <label for="last-name">Last Name</label>
-                    <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+                    <input type="text" class="form-control" id="last-name">
                 </div>
                 <div class="form">
                     <label for="email">Email Address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email Address">
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form">
                     <label for="phone">Phone Number</label>
-                    <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+                    <input type="tel" class="form-control" id="phone">
                 </div>
                 <div class="form">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Password">
+                    <input type="password" class="form-control" id="password">
+                </div>
+                <div class="form">
                     <label for="confirm">Confirm Password</label>
-                    <input type="password" class="form-control" id="confirm" placeholder="Confirm Password">
+                    <input type="password" class="form-control" id="confirm">
                 </div>
                 <button type="button submit" class="btn" id="submit">Create Account</button>
             </form>
@@ -60,7 +67,10 @@
                 <h3>Error</h3>
                 Sorry there was an error creating your account.<br>Please try again.
             </div>
-          </div>
+            <div class="sign-in">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+          </div> <!-- /content -->
           <!-- /col -->
         </div>
         <!-- /row -->
