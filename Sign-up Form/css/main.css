@@ -128,7 +128,8 @@ a {
   height: calc(2.5rem + 2px);
   font-size: 1rem;
 }
-.form-control:invalid {
+.form-control:invalid:focus,
+.form-control:invalid:focus-within {
   border: 1px solid red;
 }
 .form-control:focus {
