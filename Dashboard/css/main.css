@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 6fr;
+}
+.header {
+    grid-column: 2 / 2;
+    background-color: aqua;
+}
+.sidebar {
+    background-color: #1992d4;
+    height: 100%;
+    grid-row: 1 / -1;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+.sidebar ul {
+    list-style-type: none;
+}
+.content {
+    background-color: #e2e8f0;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
